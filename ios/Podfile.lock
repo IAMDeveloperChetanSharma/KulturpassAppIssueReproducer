@@ -1043,8 +1043,6 @@ PODS:
   - React-Mapbuffer (0.73.6):
     - glog
     - React-debug
-  - react-native-ausweisapp2-wrapper (1.1.9):
-    - React-Core
   - react-native-date-picker (4.3.5):
     - React-Core
   - react-native-encrypted-storage (4.0.3):
@@ -1063,7 +1061,7 @@ PODS:
     - React-Core
   - react-native-quick-base64 (2.0.8):
     - React-Core
-  - react-native-quick-crypto (0.7.2):
+  - react-native-quick-crypto (0.7.3):
     - glog
     - OpenSSL-Universal
     - RCT-Folly (= 2022.05.16.00)
@@ -1354,7 +1352,6 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector-modern`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
-  - "react-native-ausweisapp2-wrapper (from `../node_modules/@sap/react-native-ausweisapp2-wrapper`)"
   - react-native-date-picker (from `../node_modules/react-native-date-picker`)
   - react-native-encrypted-storage (from `../node_modules/react-native-encrypted-storage`)
   - react-native-geolocation-service (from `../node_modules/react-native-geolocation-service`)
@@ -1490,8 +1487,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   React-Mapbuffer:
     :path: "../node_modules/react-native/ReactCommon"
-  react-native-ausweisapp2-wrapper:
-    :path: "../node_modules/@sap/react-native-ausweisapp2-wrapper"
   react-native-date-picker:
     :path: "../node_modules/react-native-date-picker"
   react-native-encrypted-storage:
@@ -1638,7 +1633,6 @@ SPEC CHECKSUMS:
   React-jsinspector: 85583ef014ce53d731a98c66a0e24496f7a83066
   React-logger: 3eb80a977f0d9669468ef641a5e1fabbc50a09ec
   React-Mapbuffer: 84ea43c6c6232049135b1550b8c60b2faac19fab
-  react-native-ausweisapp2-wrapper: 5b9838b8e511df34a5da9e979b38cb9ffa1fd54f
   react-native-date-picker: 90d1d60802a20085125657940b944f2bb4e5c113
   react-native-encrypted-storage: db300a3f2f0aba1e818417c1c0a6be549038deb7
   react-native-geolocation-service: 608e1da71a1ac31b4de64d9ef2815f697978c55b
@@ -1647,7 +1641,7 @@ SPEC CHECKSUMS:
   react-native-netinfo: 48c5f79a84fbc3ba1d28a8b0d04adeda72885fa8
   react-native-pager-view: d5f3adb58a4e6e0d200055e9a4afdcda9b9022ce
   react-native-quick-base64: 777057ea4286f806b00259ede65dc79c7c706320
-  react-native-quick-crypto: b44a5aca73f6c60acb5489ec65fcf6246433b4b6
+  react-native-quick-crypto: baf477ca99eb2d142ebc8fd10c82eba98f4ebfa6
   react-native-safe-area-context: 0ee144a6170530ccc37a0fd9388e28d06f516a89
   react-native-slider: 09e5a8b7e766d3b5ae24ec15c5c4ec2679ca0f8c
   react-native-webview: ff06d1fe175ff827882ec88b696a7efcafa7e98d
@@ -1689,6 +1683,6 @@ SPEC CHECKSUMS:
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 805bf71192903b20fc14babe48080582fee65a80
 
-PODFILE CHECKSUM: ba848002c0f7463e1b1e80e47768828137a411c5
+PODFILE CHECKSUM: 7171d816dc6ce8dfe792b1615014c965252fdff6
 
 COCOAPODS: 1.14.2

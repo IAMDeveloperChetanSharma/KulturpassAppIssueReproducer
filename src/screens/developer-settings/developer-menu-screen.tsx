@@ -1,6 +1,5 @@
 import { useNavigation } from '@react-navigation/native'
 import { StackNavigationProp } from '@react-navigation/stack'
-import { AA2CommandService } from '@sap/react-native-ausweisapp2-wrapper'
 import React, { useCallback, useReducer, useState } from 'react'
 import { Keyboard, Pressable, StyleSheet, Switch, TextInput, View } from 'react-native'
 import { useDispatch, useSelector } from 'react-redux'
@@ -81,14 +80,6 @@ export const DeveloperMenuScreen: React.FC<DeveloperMenuScreenProps> = ({
       },
     })
   }, [productCode, rootNavigation])
-
-  const cancelEidFlow = useCallback(async () => {
-    try {
-      await AA2CommandService.cancel()
-    } catch (e) {
-      logger.log(`Could not cancel AA2 Flow: ${e}`)
-    }
-  }, [])
 
   const startEidFlow = useCallback(() => {
     navigation.navigate('Eid', { screen: 'EidAboutVerification' })

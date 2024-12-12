@@ -28,7 +28,6 @@ const config = {
 const quickCryptoConfig = {
   resolver: {
     extraNodeModules: {
-      crypto: require.resolve('react-native-quick-crypto/src/index.ts'),
       stream: require.resolve('stream-browserify'),
       buffer: require.resolve('@craftzdog/react-native-buffer'),
     },
