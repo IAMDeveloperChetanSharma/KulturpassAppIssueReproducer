@@ -21,10 +21,6 @@ const config = {
   },
 };
 
-/**
- * react-native-quick-crypto setup, almost as described here:
- * https://github.com/margelo/react-native-quick-crypto
- */
 const quickCryptoConfig = {
   resolver: {
     extraNodeModules: {
